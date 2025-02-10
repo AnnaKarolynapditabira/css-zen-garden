@@ -1,0 +1,57 @@
+/* 1. Aspectos gerais */
+body {
+    width: 1200px; /* Definindo um tamanho fixo para a página inteira */
+    font-family: sans-serif; /* Fonte sans-serif para a página inteira */
+    background-color: #1a002b; /* Fundo roxo escuro para o tema universo */
+    color: white; /* Texto branco para contraste */
+    background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/potw2045a.jpg'); /* Imagem de fundo de estrelas */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    text-indent: 1em; /* Indentação de parágrafos em 1em */
+    line-height: 1.5; /* Espaçamento entre as linhas de 1.5 */
+}
+
+/* 2. Títulos */
+h1 {
+    text-align: center; /* Alinhamento centralizado */
+    font-size: 1.8rem;
+    color: #ff4d4d; /* Vermelho para destaque */
+    text-shadow: 2px 2px 5px rgba(255, 77, 77, 0.5); /* Sombra para realce */
+}
+
+h2 {
+    text-align: center; /* Alinhamento centralizado */
+    font-size: 1.4rem;
+    color: #ff4d4d;
+}
+
+h3 {
+    text-align: right; /* Alinhamento à direita */
+    font-size: 1.2rem;
+    color: #ff4d4d;
+}
+
+/* 3. Seções de resumo e principal */
+.summary {
+    text-align: center; /* Alinhamento centralizado */
+    font-style: italic;
+    padding: 10px;
+    border-bottom: 2px solid #ff4d4d;
+}
+
+.main {
+    line-height: 1.5; /* Espaçamento entre as linhas de 1.5 */
+    padding: 20px;
+    background-color: rgba(26, 0, 43, 0.8); /* Fundo semi-transparente para melhor leitura */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 77, 77, 0.3);
+}
+
+/* 4. Abreviaturas */
+abbr {
+    font-variant: small-caps; /* Fonte em small-caps */
+    color: #ff4d4d; /* Destacando abreviaturas */
+}
